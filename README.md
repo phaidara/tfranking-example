@@ -22,7 +22,7 @@ pip install -r requirements.txt
 rm -rf ./output/*
 python transform_pipeline.py
 ```
-It will generate a TFRecords file and the TFTransform metadata in the `./output` directory. Before 
+It will generate a TFRecords file and the TFTransform metadata in the `./output` directory.
 
 - To train and save the model, use:
 ```bash
